@@ -18,4 +18,24 @@ All tools are installed automatically via a **devcontainer**.
 ---
 
 ## 📁 Project Structure
-
+├── .devcontainer/
+│ └── devcontainer.json
+├── hello_rust/
+│ ├── src/
+│ │ └── main.rs
+│ ├── Cargo.toml
+│ └── target/ # ignored by git
+├── .gitignore
+└── README.md
+```sh
+{
+  "name": "Rust Codespace",
+  "image": "mcr.microsoft.com/devcontainers/rust:latest",
+  "postCreateCommand": "rustc --version && cargo --version",
+  "customizations": {
+    "vscode": {
+      "extensions": ["rust-lang.rust-analyzer"]
+    }
+  }
+}
+```
