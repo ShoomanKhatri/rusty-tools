@@ -27,7 +27,7 @@ All tools are installed automatically via a **devcontainer**.
 │ └── target/ # ignored by git
 ├── .gitignore
 └── README.md
-```sh
+```json
 {
   "name": "Rust Codespace",
   "image": "mcr.microsoft.com/devcontainers/rust:latest",
