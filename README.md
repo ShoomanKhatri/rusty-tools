@@ -1,4 +1,4 @@
-# 🦀 Rust Codespace Setup (Linux)
+# 🦀 Rust Codespace Setup (Linux).
 
 This repository provides a **ready-to-use Rust development environment** using **GitHub Codespaces** on Linux.
 
